@@ -22,7 +22,7 @@ env:
 
 jobs:
   integration:
-    uses: github-actions-path/g-action-ex-9/.github/workflows/DevOps-CoE.yml
+    uses: ${{ github.owner }}/g-action-ex-9/.github/workflows/DevOps-CoE.yml
     permissions:
       contents: read
       checks: write
